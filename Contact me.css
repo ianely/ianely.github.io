@@ -1,0 +1,64 @@
+.title {
+    font-size: 100px;
+    text-align: center;
+}
+
+h3.title {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 0 0 0 325px;
+}
+
+h3.text {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 0 0 0 300px;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 360px;
+    border-color: aliceblue;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(116, 190, 240);
+}
+
+.titleline {
+    height: 4px;
+    border: none;
+    color: cornflowerblue;
+    background-color: cornflowerblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
